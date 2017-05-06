@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-
+import reducerShout from "./reducer_shout";
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  shout: reducerShout
 });
 
 export default rootReducer;
